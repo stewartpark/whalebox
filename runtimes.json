@@ -1,0 +1,20 @@
+{
+  "javascript": {
+    "image": "node:latest",
+    "entrypoint": "/usr/local/bin/node",
+    "command": "/code.js",
+    "file": "code.js"
+  },
+  "ruby": {
+    "image": "ruby:latest",
+    "entrypoint": "/usr/local/bin/ruby",
+    "command": "/code.rb",
+    "file": "code.rb"
+  },
+  "python": {
+    "image": "python:latest",
+    "entrypoint": "/usr/local/bin/python",
+    "command": "/code.py",
+    "file": "code.py"
+  }
+}
